@@ -1,12 +1,13 @@
 PATH
   remote: .
   specs:
-    rulers (0.1.2)
+    rulers (0.1.3)
       rack
 
 GEM
   remote: https://rubygems.org/
   specs:
+    byebug (11.1.3)
     diff-lcs (1.4.4)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -30,6 +31,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   rack-test
   rake (~> 12.0)
   rspec (~> 3.0)
