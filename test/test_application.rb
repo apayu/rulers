@@ -1,6 +1,9 @@
 require_relative "test_helper"
 
 class TestApp < Rulers::Application
+  def get_controller_and_action(env)
+    [TestController, "index"]
+  end
 end
 
 class TestsController < Rulers::Controller
